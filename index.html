@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="reghead">
+            <h3>Registration Form</h3>
+        </div>
+        <div class="regdetail">
+
+            <div>
+                <span>Name</span>
+                <input id="firstname-input" type="text">
+                <small id="firstname" >First Name</small>
+                <input id="lastname-input" type="text">
+                <small id="lastname">Last Name</small>
+            </div>
+            
+            <div>
+                <span>Company</span>
+                <input id="company-input" type="text">
+            </div>
+            <div>
+                <span>Email</span>
+                <input id="email-input" type="email">
+            </div>
+            <div>
+                <span>Phone</span>
+                <input id="areacode-input" type="text">
+                <small id="areacode">Area Code</small>
+                <input id="phonenumber-input" type="text">
+                <small id="phonenumber">Phone Number</small>
+            </div> 
+            <div>
+                <span>Subject</span>
+                <select id="subject-select">
+                    <option disabled="disabled" selected="selected">--Choose option--</option>
+                    <option>Math</option>
+                    <option>PE</option>
+                    <option>Art</option>
+                    <option>Pysics</option>
+                </select>
+            </div>
+            <div>
+                <span>Are you beginner?</span>
+
+                <input type="radio" name="yes_or_no">
+                <span>Yes</span>
+                <input type="radio" name="yes_or_no">
+                <span>No</spanor=>  
+
+            </div>
+            <button>Register</button>
+        </div>       
+    </form>
+</body>
+</html>
